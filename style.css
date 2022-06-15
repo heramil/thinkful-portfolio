@@ -136,27 +136,30 @@ header {
     background-color: #1354fb;
 }
 
-.about-container {
-    margin: 0 auto;
+.about-parent {
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    margin: 0 auto;
+    flex-direction: column;
 }
 
-.about-container h2 {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-.about-container p {
+.about-parent .title {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     text-align: justify;
-    word-wrap:break-word;
-    width: 25%;
+    word-wrap: break-word;
     color: white;
+    margin-top: 12rem;
+}
 
+.about-parent .text {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-align: justify;
+    word-wrap: break-word;
+    color: white;
+    margin: 5rem 25% 0 25%;
 }
 
 /* CONTACT */
@@ -223,25 +226,6 @@ header {
     justify-content: center;
 }
 
-
-
-
-.contact-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact-links ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-}
-
-.contact-links li {
-    margin: 0 1rem 0 1rem;
-}
-
 /* WORK */
 
 #work {
@@ -256,6 +240,8 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+/* FOOTER */
 
 footer {
     display: flex;
