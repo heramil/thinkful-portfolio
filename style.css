@@ -26,6 +26,15 @@ nav {
     margin: 1rem;
 }
 
+.nav-logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-logo a:hover {
+    color: #acacac;
+}
+
 /* NAV-LINKS */
 
 .nav-links ul {
@@ -108,8 +117,8 @@ nav {
     
 }
 
-/* SECTION */
-section {
+/* SECTION - INDEX.HTML */
+.section-index {
     width: 100%;
 }
 
@@ -190,6 +199,85 @@ section {
     margin: 0 0 0 3rem;
 }
 
+/* SECTION - CONTACT.HTML */
+
+/* SECTION - PROJECTS.HTML */
+.section-projects {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+    grid-template-columns: repeat(3, 25%);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 1em;
+    width: 100%;  
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 12px;
+}
+  
+.picture1 {
+      max-width: 100%;
+      border-radius: 12px;
+}
+  
+.two {
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+  
+.picture2 {
+      max-width: 100%;
+      border-radius: 12px;
+}
+  
+.three {
+    grid-column: 1 / 3;
+    grid-row: 0;
+}
+  
+.picture3 {
+      max-width: 100%;
+      border-radius: 12px;
+}
+  
+.four {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+}
+  
+.picture4 {
+      width: 100%;
+      border-radius: 12px;
+}
+  
+.five {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+  
+.picture5 {
+      max-width: 100%;
+      border-radius: 12px;
+}
+  
+.six {
+    grid-column: 1;
+    grid-row: 1;
+}
+  
+.picture6 {
+      width: 100%;
+      border-radius: 12px;
+} */
+
+/* FOOTER */
 footer {
     background-color: #a4d100;
     text-align: center;
